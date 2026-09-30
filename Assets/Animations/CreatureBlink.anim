@@ -49,7 +49,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.5
+        time: 1.6666666
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -61,7 +61,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Creature/BodyPivot/LeftEyePivot/LeftEye/Pupil
+    path: Creature/BodyPivot/FacePivot/LeftEyePivot/LeftEye/Pupil
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -96,11 +96,20 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 1.6666666
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Creature/BodyPivot/RightEyePivot/RightEye/Pupil (1)
+    path: Creature/BodyPivot/FacePivot/RightEyePivot/RightEye/Pupil (1)
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -109,14 +118,14 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
-    - time: 0.75
+    - time: 0.6666667
       value: {fileID: 2100000, guid: 599de2b7bce58884cb3111d9a4d10f4f, type: 2}
-    - time: 0.93333334
+    - time: 0.85
       value: {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
-    - time: 1.5
+    - time: 1.6666666
       value: {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
     attribute: 'm_Materials.Array.data[0]'
-    path: Creature/BodyPivot/LeftEyePivot/LeftEye
+    path: Creature/BodyPivot/FacePivot/RightEyePivot/RightEye
     classID: 23
     script: {fileID: 0}
     flags: 2
@@ -124,12 +133,14 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
-    - time: 0.6666667
+    - time: 0.75
       value: {fileID: 2100000, guid: 599de2b7bce58884cb3111d9a4d10f4f, type: 2}
-    - time: 0.85
+    - time: 0.93333334
+      value: {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
+    - time: 1.6666666
       value: {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
     attribute: 'm_Materials.Array.data[0]'
-    path: Creature/BodyPivot/RightEyePivot/RightEye
+    path: Creature/BodyPivot/FacePivot/LeftEyePivot/LeftEye
     classID: 23
     script: {fileID: 0}
     flags: 2
@@ -141,7 +152,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2412280607
+      path: 3858586158
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -151,7 +162,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
       metaData: 0
     - serializedVersion: 2
-      path: 501457546
+      path: 2899392083
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -161,7 +172,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
       metaData: 0
     - serializedVersion: 2
-      path: 2090060055
+      path: 978360807
       attribute: 0
       script: {fileID: 0}
       typeID: 23
@@ -171,7 +182,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
       metaData: 0
     - serializedVersion: 2
-      path: 2313305253
+      path: 416273268
       attribute: 0
       script: {fileID: 0}
       typeID: 23
@@ -188,12 +199,13 @@ AnimationClip:
     - {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
     - {fileID: 2100000, guid: 599de2b7bce58884cb3111d9a4d10f4f, type: 2}
     - {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
+    - {fileID: 2100000, guid: 15555ffc9a9327a4181a2b7ae9a714ad, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.5166667
+    m_StopTime: 1.6833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -241,7 +253,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.5
+        time: 1.6666666
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -253,7 +265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Creature/BodyPivot/LeftEyePivot/LeftEye/Pupil
+    path: Creature/BodyPivot/FacePivot/LeftEyePivot/LeftEye/Pupil
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -288,11 +300,20 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 1.6666666
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Creature/BodyPivot/RightEyePivot/RightEye/Pupil (1)
+    path: Creature/BodyPivot/FacePivot/RightEyePivot/RightEye/Pupil (1)
     classID: 1
     script: {fileID: 0}
     flags: 0
